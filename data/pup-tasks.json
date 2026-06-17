@@ -1,0 +1,365 @@
+{
+  "schema": 1,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "vax-puppy-series",
+      "task": "Puppy Vaccine Series (DHPP)",
+      "system": "vaccines",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        20,
+        50
+      ],
+      "diy": false,
+      "appliesTo": [
+        "puppy"
+      ],
+      "description": "Core puppy boosters every 3-4 weeks from ~6 to 16 weeks (distemper, adenovirus, parvovirus, parainfluenza)."
+    },
+    {
+      "id": "vax-rabies",
+      "task": "Rabies Vaccine",
+      "system": "vaccines",
+      "monthInterval": 36,
+      "season": null,
+      "estimatedCost": [
+        15,
+        35
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Legally required almost everywhere. First shot lasts 1 year, then typically every 3 years."
+    },
+    {
+      "id": "vax-rabies-first",
+      "task": "Rabies Vaccine (first booster)",
+      "system": "vaccines",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        15,
+        35
+      ],
+      "diy": false,
+      "appliesTo": [
+        "puppy"
+      ],
+      "description": "First rabies shot at ~12-16 weeks, boosted one year later, then every 3 years."
+    },
+    {
+      "id": "vax-dhpp",
+      "task": "DHPP Booster",
+      "system": "vaccines",
+      "monthInterval": 36,
+      "season": null,
+      "estimatedCost": [
+        20,
+        45
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Core combination booster (distemper, hepatitis, parvo, parainfluenza). Usually every 3 years after the 1-year booster."
+    },
+    {
+      "id": "vax-bordetella",
+      "task": "Bordetella (Kennel Cough)",
+      "system": "vaccines",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        20,
+        40
+      ],
+      "diy": false,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Often required for boarding, daycare, and grooming. Every 6-12 months depending on exposure."
+    },
+    {
+      "id": "vax-lepto",
+      "task": "Leptospirosis Vaccine",
+      "system": "vaccines",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        20,
+        40
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Lifestyle vaccine for dogs exposed to wildlife, standing water, or rural areas. Annual."
+    },
+    {
+      "id": "para-heartworm-prev",
+      "task": "Heartworm Prevention",
+      "system": "parasite",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        8,
+        20
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Monthly chewable or topical, year-round. A single missed dose can leave a gap."
+    },
+    {
+      "id": "para-flea-tick",
+      "task": "Flea & Tick Prevention",
+      "system": "parasite",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        10,
+        25
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Monthly preventative, year-round in most climates. Protects against fleas, ticks, and tick-borne disease."
+    },
+    {
+      "id": "para-deworm",
+      "task": "Deworming",
+      "system": "parasite",
+      "monthInterval": 3,
+      "season": null,
+      "estimatedCost": [
+        10,
+        30
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Broad-spectrum dewormer; puppies more often. Many monthly heartworm products also cover intestinal worms."
+    },
+    {
+      "id": "para-heartworm-test",
+      "task": "Heartworm Test",
+      "system": "parasite",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        35,
+        75
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Annual blood test before renewing prevention — required by most vets to refill heartworm meds."
+    },
+    {
+      "id": "vet-wellness-adult",
+      "task": "Wellness Exam",
+      "system": "vet",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        50,
+        120
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult"
+      ],
+      "description": "Annual head-to-tail checkup: weight, teeth, heart, joints, and a baseline for catching problems early."
+    },
+    {
+      "id": "vet-wellness-senior",
+      "task": "Senior Wellness Exam",
+      "system": "vet",
+      "monthInterval": 6,
+      "season": null,
+      "estimatedCost": [
+        60,
+        140
+      ],
+      "diy": false,
+      "appliesTo": [
+        "senior"
+      ],
+      "description": "Twice-yearly checkup for older dogs — small changes matter more and move faster after about age 7."
+    },
+    {
+      "id": "vet-wellness-puppy",
+      "task": "Puppy Checkup",
+      "system": "vet",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        40,
+        90
+      ],
+      "diy": false,
+      "appliesTo": [
+        "puppy"
+      ],
+      "description": "Frequent visits during the first months — growth checks, vaccine rounds, and spay/neuter planning."
+    },
+    {
+      "id": "vet-bloodwork-senior",
+      "task": "Senior Bloodwork",
+      "system": "vet",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        80,
+        200
+      ],
+      "diy": false,
+      "appliesTo": [
+        "senior"
+      ],
+      "description": "Annual blood panel to monitor kidney, liver, and thyroid function as your dog ages."
+    },
+    {
+      "id": "vet-fecal",
+      "task": "Fecal Exam",
+      "system": "vet",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        25,
+        55
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Annual stool check for intestinal parasites, even on prevention."
+    },
+    {
+      "id": "dental-cleaning",
+      "task": "Professional Dental Cleaning",
+      "system": "dental",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        300,
+        800
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Vet dental cleaning under anesthesia. Most dogs need it yearly; periodontal disease is very common by age 3."
+    },
+    {
+      "id": "dental-brush",
+      "task": "Tooth Brushing Routine",
+      "system": "dental",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        15
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Brushing a few times a week with dog-safe toothpaste does more for dental health than anything else at home."
+    },
+    {
+      "id": "groom-bath",
+      "task": "Bath",
+      "system": "grooming",
+      "monthInterval": 2,
+      "season": null,
+      "estimatedCost": [
+        0,
+        90
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Every 4-8 weeks for most coats; more for oily or outdoorsy dogs, less for dry skin."
+    },
+    {
+      "id": "groom-nails",
+      "task": "Nail Trim",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        25
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Every 3-6 weeks. If you can hear clicking on the floor, they're too long."
+    },
+    {
+      "id": "groom-ears",
+      "task": "Ear Cleaning",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        15
+      ],
+      "diy": true,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Monthly check and clean, more often for floppy-eared breeds prone to infections."
+    },
+    {
+      "id": "groom-coat",
+      "task": "Coat Grooming",
+      "system": "grooming",
+      "monthInterval": 2,
+      "season": null,
+      "estimatedCost": [
+        0,
+        80
+      ],
+      "diy": true,
+      "appliesTo": [
+        "puppy",
+        "adult",
+        "senior"
+      ],
+      "description": "Brush-outs and trims on a schedule that fits the coat — every 4-8 weeks for many breeds."
+    }
+  ]
+}
